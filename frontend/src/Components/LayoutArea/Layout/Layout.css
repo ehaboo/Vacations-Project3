@@ -1,0 +1,9 @@
+.Layout {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    
+    main {
+        height: 80%;
+    }
+}

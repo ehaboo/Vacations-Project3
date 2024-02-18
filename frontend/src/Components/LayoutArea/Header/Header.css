@@ -1,0 +1,12 @@
+.Header {
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    
+}

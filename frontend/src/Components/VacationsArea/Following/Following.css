@@ -1,0 +1,16 @@
+.Following {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    box-shadow: -0.5px 0.5px 8px blueviolet;
+    display: flex;
+    width: 85px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+    .followers {
+        color: black;
+    }
+}

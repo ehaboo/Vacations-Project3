@@ -1,0 +1,47 @@
+.Vacations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.VacationsContainer {
+		color: aqua;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 15px;
+
+		h1{
+			align-items: center;
+		}
+	}
+
+	.MuiPagination-ul {
+		margin: 25px 0;
+		background: rgba(255, 255, 255, 0.041);
+		border-radius: 12px;
+		height: 60px;
+
+	}
+
+	.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+		background-color: rgba(255, 255, 255, 0.2);
+		height: 50px;
+		color: #000;
+
+	}
+
+	.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+
+	.MuiPaginationItem-page,
+	.MuiPaginationItem-previousNext {
+		padding: 20px 18px;
+		color: aqua;
+		font-weight: 600;
+	}
+
+
+}

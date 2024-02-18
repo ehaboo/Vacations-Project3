@@ -1,0 +1,17 @@
+.AuthMenu {
+    color: aqua;
+
+    .onAir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .onAir .userName {
+        color: #3EFF00;
+    }
+
+    .onAir .noConnect {
+        color: #FF0900;
+    }
+}
